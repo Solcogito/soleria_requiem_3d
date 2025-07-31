@@ -32,6 +32,18 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Debug.Log("GameManager started.");
+
+        Camera mainCam = Camera.main;
+        if (mainCam != null)
+        {
+            mainCam.orthographic = true;
+            mainCam.transform.position = new Vector3(0, 0, -10);
+        }
+        else
+        {
+            Debug.LogWarning("Main Camera not found!");
+        }
+
         SetGameState(GameState.MainMenu);
     }
 
