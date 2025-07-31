@@ -1,0 +1,46 @@
+# ========== Unity ========== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# Unity user-specific settings
+UserSettings/
+
+# ========== Visual Studio ========== #
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# ========== OS ========== #
+.DS_Store
+*.swp
+*.bak
+*.orig
+*.tmp
+Thumbs.db
+
+# ========== Packages ========== #
+Packages/com.unity.*
+Packages/manifest.json
+
+# ========== Auto-generated ========== #
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ========== Crash Logs ========== #
+sysinfo.txt
